@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.TimerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <FlexLayout>
+                <Label x:Name="lbl"
+                       Text="Press the button"
+                       FontSize="Medium"
+                       BackgroundColor="Beige">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizerTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Button x:Name="timerBtn"
+                        Text="Show info"
+                        FontSize="Large"
+                        Clicked="timerBtnClicked">
+                </Button>
+            </FlexLayout>
+            <Button x:Name="back"
+                        Text="Back"
+                        FontSize="Large"
+                        Clicked="backClicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
