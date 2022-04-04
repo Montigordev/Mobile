@@ -29,15 +29,26 @@ namespace App
                 Text = "RGB",
                 BackgroundColor = Color.Blue
             };
+            Button TicTacToeBtn = new Button
+            {
+                Text = "Tic Tac Toe",
+                BackgroundColor = Color.MediumPurple
+            };
             StackLayout st = new StackLayout
             {
-                Children = {EntBtn, TimerBtn, RgbBtn}
+                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn}
             };
             st.BackgroundColor = Color.Aqua;
             Content = st;
             EntBtn.Clicked += EntBtnClicked;
             TimerBtn.Clicked += TimerBtnClicked;
             RgbBtn.Clicked += RgbBtnClicked;
+            TicTacToeBtn.Clicked += TicTacToeClicked;
+        }
+
+        private async void TicTacToeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TicTacToe());
         }
 
         private async void RgbBtnClicked(object sender, EventArgs e)
