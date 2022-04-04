@@ -8391,7 +8391,16 @@ namespace App.Droid
 			public const int tooltip_frame_light = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int xamarin_logo = 2131165304;
+			public const int web_site_back = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int web_site_home = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int web_site_plus = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int xamarin_logo = 2131165307;
 			
 			static Drawable()
 			{

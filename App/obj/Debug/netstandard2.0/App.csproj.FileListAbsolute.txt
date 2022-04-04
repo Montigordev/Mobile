@@ -51,3 +51,4 @@ C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\App.csproj.CopyComple
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\App.dll
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\ref\App.dll
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\App.pdb
+C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\PickerPage.xaml.g.cs

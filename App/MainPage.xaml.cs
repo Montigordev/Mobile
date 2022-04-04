@@ -34,9 +34,14 @@ namespace App
                 Text = "Tic Tac Toe",
                 BackgroundColor = Color.MediumPurple
             };
+            Button PickerBtn = new Button
+            {
+                Text = "Picker page",
+                BackgroundColor = Color.BlueViolet
+            };
             StackLayout st = new StackLayout
             {
-                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn}
+                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn, PickerBtn}
             };
             st.BackgroundColor = Color.Aqua;
             Content = st;
@@ -44,6 +49,12 @@ namespace App
             TimerBtn.Clicked += TimerBtnClicked;
             RgbBtn.Clicked += RgbBtnClicked;
             TicTacToeBtn.Clicked += TicTacToeClicked;
+            PickerBtn.Clicked += PickerClicked;
+        }
+
+        private async void PickerClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PickerPage());
         }
 
         private async void TicTacToeClicked(object sender, EventArgs e)

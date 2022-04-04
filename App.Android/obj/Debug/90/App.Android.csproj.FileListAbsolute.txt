@@ -988,3 +988,6 @@ C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\stamp\_ConvertResourcesCa
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\web_site_back.jpg
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\web_site_home.jpg
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\web_site_plus.jpg
