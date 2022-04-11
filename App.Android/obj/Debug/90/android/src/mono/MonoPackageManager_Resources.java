@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"App.Android.dll",
 		"App.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Messaging.Abstractions.dll",
+		"Plugin.Messaging.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

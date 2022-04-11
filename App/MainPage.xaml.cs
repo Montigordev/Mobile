@@ -39,9 +39,19 @@ namespace App
                 Text = "Picker page",
                 BackgroundColor = Color.BlueViolet
             };
+            Button TableBtn = new Button
+            {
+                Text = "Table page",
+                BackgroundColor = Color.LawnGreen
+            };
+            Button HoroskopBtn = new Button
+            {
+                Text = "Horoskoop page",
+                BackgroundColor = Color.BlueViolet
+            };
             StackLayout st = new StackLayout
             {
-                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn, PickerBtn}
+                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn, PickerBtn, TableBtn, HoroskopBtn}
             };
             st.BackgroundColor = Color.Aqua;
             Content = st;
@@ -50,6 +60,18 @@ namespace App
             RgbBtn.Clicked += RgbBtnClicked;
             TicTacToeBtn.Clicked += TicTacToeClicked;
             PickerBtn.Clicked += PickerClicked;
+            TableBtn.Clicked += TableClicked;
+            HoroskopBtn.Clicked += HoroskopClicked;
+        }
+
+        private async void HoroskopClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HoroskopPage());
+        }
+
+        private async void TableClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TablePage());
         }
 
         private async void PickerClicked(object sender, EventArgs e)

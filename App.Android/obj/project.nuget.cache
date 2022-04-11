@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3OJK66zuIGQx427zuT+kv830Q4SJ6974/fZVzLC9KSNPiJS9hOgUoOlqSuphCr1wrJ8kt9svFI4E7mCV+5kDtg==",
+  "dgSpecHash": "p55sdzoWNldnfztunX/DU0zyjNf9HHJJLU4GlPZ7wbIdIIw142VLu94sEwhxTVM3BA5SEJcxVbDxkXguuk5yAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\monti\\Desktop\\Mobile\\App.Android\\App.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\monti\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",

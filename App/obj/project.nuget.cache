@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d6KGLhv0SdU+2Sku1AMhvOJJaLT6fAanlIawEDVJaxXBI5PbC6aKhVhTqQ9XmnNgvlL9o8pjrU95yoyszaACfQ==",
+  "dgSpecHash": "myRVIjxh4MR4dEa72rRH5YRbEmy6OFjsbjNzkcFgBNR/oMrUFHmAEF2ZyuAwG+Hl/5le2ZPd54n/pByjuY/ZSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\monti\\Desktop\\Mobile\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monti\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\monti\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\monti\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\monti\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Users\\monti\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
