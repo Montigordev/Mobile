@@ -62,7 +62,7 @@ namespace App
             label = new Label
             {
                 Text = "Hello",
-                FontSize = 26,
+                FontSize = 22,
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
             };
