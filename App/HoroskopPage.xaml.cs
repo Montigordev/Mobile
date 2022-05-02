@@ -13,7 +13,6 @@ namespace App
     public partial class HoroskopPage : ContentPage
     {
         DatePicker date;
-        DateTime dateTime;
         Image img;
         Label name, description;
         public HoroskopPage()
@@ -39,7 +38,7 @@ namespace App
             description = new Label
             {
                 Text = "Получи знак зодиака",
-                FontSize = 26,
+                FontSize = 22,
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center
             };
@@ -178,7 +177,7 @@ namespace App
                     }
                     else
                     {
-                        SetHoroscope("Стрелец", "Стрелец- политик, лидер, и борец", "iSaggitarius.png");
+                        SetHoroscope("Стрелец", "Стрелец- политик, лидер и борец", "iSaggitarius.png");
                     }
                     break;
                 default:

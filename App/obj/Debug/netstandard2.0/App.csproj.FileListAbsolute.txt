@@ -54,3 +54,4 @@ C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\App.pdb
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\PickerPage.xaml.g.cs
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\TablePage.xaml.g.cs
 C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\HoroskopPage.xaml.g.cs
+C:\Users\monti\Desktop\Mobile\App\obj\Debug\netstandard2.0\MaakondPage.xaml.g.cs
