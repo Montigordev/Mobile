@@ -54,9 +54,14 @@ namespace App
                 Text = "Maakond page",
                 BackgroundColor = Color.Blue
             };
+            Button CountryBtn = new Button
+            {
+                Text = "Countries page",
+                BackgroundColor = Color.Green
+            };
             StackLayout st = new StackLayout
             {
-                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn, PickerBtn, TableBtn, HoroskopBtn, CountyBtn}
+                Children = {EntBtn, TimerBtn, RgbBtn, TicTacToeBtn, PickerBtn, TableBtn, HoroskopBtn, CountyBtn, CountryBtn}
             };
             st.BackgroundColor = Color.Aqua;
             Content = st;
@@ -68,6 +73,12 @@ namespace App
             TableBtn.Clicked += TableClicked;
             HoroskopBtn.Clicked += HoroskopClicked;
             CountyBtn.Clicked += CountyClicked;
+            CountryBtn.Clicked += CountryClicked;
+        }
+
+        private async void CountryClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CountryPage());
         }
 
         private async void CountyClicked(object sender, EventArgs e)

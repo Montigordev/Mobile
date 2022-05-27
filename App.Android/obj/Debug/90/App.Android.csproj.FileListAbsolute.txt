@@ -1025,3 +1025,7 @@ C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\vorumaa.jpg
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\viljandimaa.jpg
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\idaivirumaa.jpg
 C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\laaneivirumaa.jpg
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\estoniaflag.png
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\russiaflag.jpg
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\usaflag.png
+C:\Users\monti\Desktop\Mobile\App.Android\obj\Debug\90\res\drawable\irelandflag.png
